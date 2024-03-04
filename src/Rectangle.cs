@@ -11,6 +11,11 @@ namespace Geometry.src
         private double Length;
         private double Breath;
 
+        /// <summary>
+        /// Parameterize constructor to Set length and breath
+        /// </summary>
+        /// <param name="Length"></param>
+        /// <param name="Breath"></param>
         public Rectangle(double Length, double Breath)
         {
             this.Length = Length;

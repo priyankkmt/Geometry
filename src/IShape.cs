@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Geometry.src
 {
+    /// <summary>
+    /// Base interface of shape for area and perimeter
+    /// </summary>
     public interface IShape
     {
         public double area();

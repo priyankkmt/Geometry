@@ -10,6 +10,11 @@ namespace Geometry.src
     {
         private double Radius;
         private readonly double PI = Math.PI;
+
+        /// <summary>
+        /// Parameterize constructor to set radius
+        /// </summary>
+        /// <param name="radius"></param>
         public Circle(double radius)
         {
             Radius = radius;

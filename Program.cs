@@ -7,6 +7,7 @@ namespace Geometry
     {
         static void Main(string[] args)
         {
+            // Handle Rectangle
             Console.WriteLine("Enter length and breath of rectagle");
             double Length = Convert.ToDouble(Console.ReadLine());
             double Breath = Convert.ToDouble(Console.ReadLine());
@@ -15,6 +16,7 @@ namespace Geometry
             Console.WriteLine(Rectangle.area());
             Console.WriteLine(Rectangle.perimeter());
 
+            // Handle Circle
             Console.WriteLine("Enter radius of triangle");
             double Radius = Convert.ToDouble(Console.ReadLine());
 
@@ -22,6 +24,7 @@ namespace Geometry
             Console.WriteLine(Circle.area());
             Console.WriteLine(Circle.perimeter());
 
+            // Handle Triangle
             Console.WriteLine("Enter base and height of triangle");
             double TriangleBase = Convert.ToDouble(Console.ReadLine());
             double Height = Convert.ToDouble(Console.ReadLine());
@@ -29,6 +32,7 @@ namespace Geometry
             IShape Triangle = ShapeFactory.CreateTriangle(TriangleBase, Height);
             Console.WriteLine(Triangle.area());
             Console.WriteLine(Triangle.perimeter());
+
         }
     }
 }
