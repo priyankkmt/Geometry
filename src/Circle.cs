@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Geometry.src
 {
+    /// <summary>
+    /// This class calculates area and perimeter of Circle
+    /// </summary>
     internal class Circle : IShape
     {
         private double Radius;

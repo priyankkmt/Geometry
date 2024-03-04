@@ -13,16 +13,16 @@ namespace Geometry
             double Breath = Convert.ToDouble(Console.ReadLine());
 
             IShape Rectangle = ShapeFactory.CreateRectangle(Length, Breath);
-            Console.WriteLine(Rectangle.area());
-            Console.WriteLine(Rectangle.perimeter());
+            Console.WriteLine("Area : " + Rectangle.area());
+            Console.WriteLine("Perimeter : " + Rectangle.perimeter());
 
             // Handle Circle
             Console.WriteLine("Enter radius of triangle");
             double Radius = Convert.ToDouble(Console.ReadLine());
 
             IShape Circle = ShapeFactory.CreateCircle(Radius);
-            Console.WriteLine(Circle.area());
-            Console.WriteLine(Circle.perimeter());
+            Console.WriteLine("Area : " + Circle.area());
+            Console.WriteLine("Perimeter : " + Circle.perimeter());
 
             // Handle Triangle
             Console.WriteLine("Enter base and height of triangle");
@@ -30,8 +30,8 @@ namespace Geometry
             double Height = Convert.ToDouble(Console.ReadLine());
 
             IShape Triangle = ShapeFactory.CreateTriangle(TriangleBase, Height);
-            Console.WriteLine(Triangle.area());
-            Console.WriteLine(Triangle.perimeter());
+            Console.WriteLine("Area : " + Triangle.area());
+            Console.WriteLine("Perimeter : " + Triangle.perimeter());
 
         }
     }

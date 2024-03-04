@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Geometry.src
 {
+    /// <summary>
+    /// This class calculates area and perimeter of Triangle
+    /// </summary>
     internal class Triangle : IShape
     {
         private double TriangleBase;

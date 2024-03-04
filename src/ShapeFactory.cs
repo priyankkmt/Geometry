@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Geometry.src
 {
+    /// <summary>
+    /// It handles the responsibility of creating diffrent shapes instances and returns them 
+    /// </summary>
     internal class ShapeFactory
     {
         /// <summary>
